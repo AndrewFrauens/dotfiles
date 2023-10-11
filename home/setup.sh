@@ -1,2 +1,2 @@
-ln -s ./.bashrc ~/.bashrc
+cp ./.bashrc ~/.bashrc
 
