@@ -43,6 +43,14 @@ P.S. You can delete this when you're done too. It's your config now :)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
+-- Set default tab settings
+vim.opt.tabstop=2
+vim.opt.shiftwidth=2
+vim.opt.softtabstop=2
+vim.opt.autoindent=true
+vim.opt.smartindent=true
+vim.opt.expandtab=true
+
 -- Install package manager
 --    https://github.com/folke/lazy.nvim
 --    `:help lazy.nvim.txt` for more info
