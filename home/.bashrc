@@ -121,6 +121,7 @@ fi
 # Stuff I've added to the default bashrc from PopOS
 
 alias nvim="~/nvim.appimage"
+alias obsidian="~/Applications/Obsidian-1.5.3.AppImage"
 alias vim=nvim
 alias vi=nvim
 alias v=nvim
