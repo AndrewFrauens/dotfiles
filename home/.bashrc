@@ -121,6 +121,8 @@ fi
 # Stuff I've added to the default bashrc from PopOS
 
 alias nvim="~/nvim.appimage"
+alias doom="~/.config/emacs/bin/doom"
+alias emacs="~/.config/emacs/bin/doom run"
 alias vim=nvim
 alias vi=nvim
 alias v=nvim
