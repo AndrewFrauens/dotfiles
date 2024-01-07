@@ -123,6 +123,7 @@ fi
 alias nvim="~/nvim.appimage"
 alias doom="~/.config/emacs/bin/doom"
 alias emacs="~/.config/emacs/bin/doom run"
+alias obsidian="~/Applications/Obsidian-1.5.3.AppImage"
 alias vim=nvim
 alias vi=nvim
 alias v=nvim
