@@ -120,7 +120,7 @@ fi
 
 # Stuff I've added to the default bashrc from PopOS
 
-alias nvim="~/nvim.appimage"
+alias nvim="~/Applications/nvim.appimage"
 alias doom="~/.config/emacs/bin/doom"
 alias emacs="~/.config/emacs/bin/doom run"
 alias obsidian="~/Applications/Obsidian-1.5.3.AppImage"
