@@ -1,6 +1,7 @@
 #!/bin/sh
 
 
-ln -s /home/andrew/dotfiles/dotconfig/alacritty /home/andrew/.config/alacritty
-ln -s /home/andrew/dotfiles/dotconfig/nvim /home/andrew/.config/nvim
+ln -s ~/dotfiles/dotconfig/alacritty ~/.config/alacritty
+ln -s ~/dotfiles/dotconfig/nvim ~/.config/nvim
+ln -s ~/dotfiles/dotconfig/helix ~/.config
 

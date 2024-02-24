@@ -1,0 +1,26 @@
+
+# Rust, enable clippy on save
+[language-server.rust-analyzer.config.check]
+command = "clippy"
+
+# TailwindCSS, can also be enabled for other languages like Rust 
+# if follow directions: https://github.com/helix-editor/helix/wiki/How-to-install-the-default-language-servers
+[[language]]
+name = "html"
+language-servers = [ "vscode-html-language-server", "tailwindcss-ls" ]
+
+[[language]]
+name = "css"
+language-servers = [ "vscode-css-language-server", "tailwindcss-ls" ]
+
+[[language]]
+name = "jsx"
+language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
+
+[[language]]
+name = "tsx"
+language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
+
+[[language]]
+name = "svelte"
+language-servers = [ "svelteserver", "tailwindcss-ls" ]

@@ -1,0 +1,6 @@
+inherits = "tokyonight_storm"
+
+# need to highlight primary selection for some ops and isn't currently supported in default scheme
+# "ui.cursorline.primary" = {fg = "red"}
+# "ui.cursor.primary" = {bg = "bg-highlight", fg = "orange", modifiers = ["italic", "bold"]}
+
