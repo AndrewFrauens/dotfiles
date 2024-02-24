@@ -119,11 +119,17 @@ fi
 . "$HOME/.cargo/env"
 
 # Stuff I've added to the default bashrc from PopOS
-
-alias nvim="~/Applications/nvim.appimage"
+if [[ $(grep -i Microsoft /proc/version) ]]
+then
+  echo "skipping setting nvim since on windows"
+  #which nvim
+else
+  alias nvim="~/Applications/nvim.appimage"
+fi
 alias doom="~/.config/emacs/bin/doom"
 alias emacs="~/.config/emacs/bin/doom run"
 alias obsidian="~/Applications/Obsidian-1.5.3.AppImage"
+# alias nvim="~/nvim.appimage"
 alias vim=nvim
 alias vi=nvim
 alias v=nvim
