@@ -135,7 +135,9 @@ alias vi=nvim
 alias v=nvim
 
 alias cd='cd -P' # make it easier to follow symbolic links
+
 export PATH=$PATH:/usr/local/go/bin
+export PATH="$HOME/go/bin:$PATH"
 
 
 export NVM_DIR="$HOME/.nvm"
