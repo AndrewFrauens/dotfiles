@@ -47,8 +47,8 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 10
-    y: 10
+    x: 5
+    y: 5
 
   # Spread additional padding evenly around the terminal content.
   #dynamic_padding: false
@@ -192,8 +192,6 @@ font:
   # characters (Unicode points 2500 - 259f).
   #
   builtin_box_drawing: true
-  AppleFontSmoothing: true
-  draw_bold_text_with_bright_colors: true
 
 
 # Bell
@@ -309,8 +307,6 @@ live_config_reload: true
 #  program: /bin/bash
 #  args:
 #    - --login
-shell:
-  program: /usr/bin/zsh
 
 # Startup directory
 #
